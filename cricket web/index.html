@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Cricketer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1> Favourite Cricketer </h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Sachin Tendulkar</h2>
+            <h5>God of Cricket</h5>
+            <p>He is considered to be the greatest batsman in the history of Indian Cricket after Sir Donald George Bradman and Sir Vivian Richards. Sachin is the highest run-scorer in international cricket and he is the only player to have scored one hundred international centuries.</p>
+            <button onclick="deleteplayer(event)">Delete</button>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Favourite cricketer Name</h2>
+        <form>
+            <input type="text" placeholder="Player Name" id="player-name-input">
+            <input type="text" placeholder="Nick Name" id="nick-name-input">
+            <textarea placeholder="Short description " id="player-description-input"></textarea>
+            <button id="add-player">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+    <button class="add-button" id="add-popup-button">+</button>
+
+
+    <script src="demo.js"></script>
+</body>
+</html>
